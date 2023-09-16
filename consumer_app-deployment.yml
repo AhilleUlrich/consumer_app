@@ -4,7 +4,7 @@ metadata:
   name: consumer-app
   namespace: kafka
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: consumer-app
