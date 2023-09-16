@@ -14,7 +14,7 @@ spec:
         app: consumer-app
     spec:
       containers:
-        - name: producer_app
-          image: diwelle/consumer_app:producer_app
+        - name: consumer_app
+          image: diwelle/consumer_app:consumer_app
           
 
