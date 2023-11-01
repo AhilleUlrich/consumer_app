@@ -1,6 +1,6 @@
 from confluent_kafka import Consumer
 
-conf = {'bootstrap.servers': "localhost:9092",
+conf = {'bootstrap.servers': "my-kafka.kafka.svc.cluster.local:9092",
         'group.id': "foo",
         'auto.offset.reset': 'smallest'}
 
